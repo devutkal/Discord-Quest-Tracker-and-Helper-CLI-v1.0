@@ -1,0 +1,375 @@
+################################################################################
+#            Discord Quest Tracker CLI - .gitignore                            #
+#                                                                              #
+#  🔒 CRITICAL: This prevents sensitive files from being committed             #
+#                                                                              #
+#  ⚠️  NEVER commit Discord tokens to Git!                                     #
+################################################################################
+
+################################################################################
+# 🔐 CRITICAL - NEVER COMMIT THESE FILES!
+################################################################################
+# These files may contain Discord tokens and sensitive credentials
+
+# Token files (MOST IMPORTANT!)
+token.txt
+discord-token.txt
+my-token.txt
+.token
+tokens.txt
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.backup
+.env.production
+
+# Config files that might contain tokens
+config.json
+config.js
+settings.json
+credentials.json
+
+# Scripts with hardcoded tokens
+*-with-token.js
+*-token.js
+
+# Personal notes that might contain tokens
+notes.txt
+private-notes.txt
+personal-notes.md
+token-backup.txt
+my-tokens.md
+
+# Output/log files that might expose tokens
+output.log
+quest-output.txt
+debug.log
+
+
+################################################################################
+# 💻 Operating System Files
+################################################################################
+
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# === Windows ===
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Batch files that might contain tokens
+check-quests-token.bat
+run-with-token.bat
+
+# === Linux ===
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Shell scripts with tokens
+*-token.sh
+run-with-token.sh
+
+
+################################################################################
+# 📝 IDE and Editor Files
+################################################################################
+
+# === Visual Studio Code ===
+.vscode/
+*.code-workspace
+.history/
+
+# === JetBrains IDEs ===
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# === Sublime Text ===
+*.sublime-project
+*.sublime-workspace
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# === Atom ===
+.atom/
+
+# === Vim ===
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+tags
+[._]*.un~
+
+# === Emacs ===
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+
+################################################################################
+# 📦 Node.js
+################################################################################
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Lock files (optional - some include, some don't)
+# Uncomment if you want to ignore lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+*.lcov
+.nyc_output
+
+
+################################################################################
+# 🏗️ Build and Output
+################################################################################
+
+# Build directories
+dist/
+build/
+out/
+.output/
+
+# Compiled files
+*.min.js
+*.bundle.js
+*.compiled.js
+
+# Transpiled files
+lib/
+es/
+
+
+################################################################################
+# 📄 Logs and Debugging
+################################################################################
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Quest data exports
+quest-data-*.json
+quest-export-*.csv
+quest-log-*.txt
+
+# Debug output
+debug-output.txt
+api-response.json
+
+
+################################################################################
+# 💾 Temporary Files
+################################################################################
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.backup
+*~
+
+# Cache directories
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+
+
+################################################################################
+# 📚 Documentation Drafts
+################################################################################
+
+# Draft files
+*-draft.md
+*-wip.md
+draft-*
+WIP-*
+TODO-private.md
+
+
+################################################################################
+# 📦 Archives and Compressed Files
+################################################################################
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.gz
+*.bz2
+
+
+################################################################################
+# 🔧 Git and Version Control
+################################################################################
+
+# Git files
+*.patch
+*.diff
+*.orig
+
+# Merge conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+
+
+################################################################################
+# 🗄️ Database Files
+################################################################################
+
+# Database files (if you add data storage)
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+
+################################################################################
+# 🔐 Security and Keys
+################################################################################
+
+# SSH keys
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+
+# API keys and secrets
+secrets.json
+api-keys.txt
+.secrets
+
+
+################################################################################
+# 🧪 Testing
+################################################################################
+
+# Test output
+test-output/
+test-results/
+*.test.log
+
+# Jest
+.jest/
+jest-results/
+
+
+################################################################################
+# 📊 Miscellaneous
+################################################################################
+
+# Python (if you add Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# macOS specific
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Desktop.ini
+
+
+################################################################################
+#                       🔒 SECURITY REMINDER                                   #
+################################################################################
+#                                                                              #
+#  Before committing, ALWAYS verify:                                          #
+#  1. No Discord tokens in any files                                          #
+#  2. No .env files with sensitive data                                       #
+#  3. No hardcoded credentials                                                 #
+#  4. No personal information                                                  #
+#                                                                              #
+#  Run these commands to check:                                               #
+#  - git status                                                                #
+#  - git diff                                                                  #
+#                                                                              #
+#  If you accidentally committed a token:                                     #
+#  1. Regenerate the token IMMEDIATELY                                        #
+#  2. Change your Discord password                                            #
+#  3. Enable 2FA if not already enabled                                       #
+#  4. Remove from Git history (use git filter-branch or BFG)                  #
+#                                                                              #
+################################################################################
+
+################################################################################
+#                            END OF .gitignore                                 #
+################################################################################

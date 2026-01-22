@@ -1,0 +1,157 @@
+# MIT License
+
+Copyright (c) 2026 Utkal Mishra (devutkal)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+                        EDUCATIONAL USE & DISCLAIMER
+================================================================================
+
+⚠️  This software uses Discord tokens for authentication.
+
+By using, copying, modifying, or distributing this software, you acknowledge
+and agree to the following terms:
+
+--------------------------------------------------------------------------------
+🔐 1. TOKEN SECURITY & RESPONSIBILITY
+--------------------------------------------------------------------------------
+   ⚠️  Discord tokens provide FULL ACCESS to user accounts
+   ⚠️  Users are solely responsible for protecting their tokens
+   ⚠️  Never share tokens or commit them to version control
+   ✓  Use on test/throwaway accounts when possible
+   ✓  Regenerate tokens immediately if compromised
+
+--------------------------------------------------------------------------------
+⚖️ 2. TERMS OF SERVICE COMPLIANCE
+--------------------------------------------------------------------------------
+   ⚠️  Using tokens for automation may violate Discord's Terms of Service
+   ⚠️  Potential risk of account suspension or ban
+   ✓  This script only reads data (no automation)
+   ✓  Users are responsible for ensuring ToS compliance
+   ✓  The author does not endorse ToS violations
+
+--------------------------------------------------------------------------------
+🎓 3. EDUCATIONAL PURPOSE
+--------------------------------------------------------------------------------
+   ✓  This software is for educational purposes
+   ✓  Learn about Node.js CLI development
+   ✓  Understand Discord API interactions
+   ✓  Practice async/await patterns
+   ✓  Study terminal application design
+
+--------------------------------------------------------------------------------
+🛡️ 4. NO LIABILITY
+--------------------------------------------------------------------------------
+   ✗  The author is NOT responsible for:
+      - Account suspensions or bans
+      - Compromised tokens or accounts
+      - Data loss or corruption
+      - Any damages from use or misuse
+   
+   ✓  Users accept FULL responsibility for:
+      - Their own use of this software
+      - Protecting their Discord tokens
+      - Compliance with all applicable terms
+      - Any consequences that may arise
+
+--------------------------------------------------------------------------------
+🔒 5. PRIVACY & DATA HANDLING
+--------------------------------------------------------------------------------
+   ✓  This software does NOT:
+      - Store tokens permanently
+      - Send data to external servers
+      - Share data with third parties
+      - Track or log user information
+   
+   ✓  All data processing:
+      - Happens locally on your machine
+      - Is temporary (in-memory only)
+      - Is under your control
+      - Respects your privacy
+
+--------------------------------------------------------------------------------
+📋 6. READ-ONLY OPERATIONS
+--------------------------------------------------------------------------------
+   ✓  This software only READS quest data
+   ✓  Does NOT automate quest completion
+   ✓  Does NOT modify account data
+   ✓  Does NOT send messages or perform actions
+   ✓  Lower risk than automation scripts
+
+--------------------------------------------------------------------------------
+⚠️ 7. NO WARRANTY
+--------------------------------------------------------------------------------
+   ✗  No warranty of any kind is provided
+   ✗  No guarantee of functionality
+   ✗  No guarantee of safety or undetectability
+   ✗  Software provided "AS IS"
+   
+   ⚠️  Token detection methods may change
+   ⚠️  Discord policies may be updated
+   ⚠️  Functionality may break without notice
+
+--------------------------------------------------------------------------------
+🎯 8. INTENDED USE
+--------------------------------------------------------------------------------
+   ✓  Track personal Discord quest progress
+   ✓  Learn about CLI application development
+   ✓  Understand API authentication
+   ✓  Practice Node.js programming
+   ✓  Educational and research purposes
+
+================================================================================
+
+BY USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT:
+
+1. You have read and understood this license
+2. You accept all risks associated with token usage
+3. You are solely responsible for your Discord account
+4. You will protect your token and account security
+5. You understand potential ToS implications
+6. You will not hold the author liable for any consequences
+
+================================================================================
+
+SECURITY BEST PRACTICES:
+
+✓ DO:
+   - Use on test/throwaway accounts when possible
+   - Keep your token private and secure
+   - Regenerate token if compromised
+   - Follow Discord's Terms of Service
+   - Report security issues responsibly
+
+✗ DON'T:
+   - Share your Discord token with anyone
+   - Commit tokens to Git repositories
+   - Post tokens in public forums
+   - Use tokens from untrusted sources
+   - Ignore security warnings
+
+================================================================================
+
+If you have concerns about this software or Discord's policies, please:
+- Review Discord's Terms of Service at https://discord.com/terms
+- Contact Discord support for clarification
+- Use at your own discretion and risk
+
+================================================================================
+
+# Last Updated: January 16, 2026
